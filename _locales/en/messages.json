@@ -10,7 +10,7 @@
 
     "o_tabs_help": {
         "message": "Help",
-        "description": "Tab name"
+        "description": "Tab name. Prefix 'o_' for options page"
     },
     "o_tabs_main": {
         "message": "Main",
@@ -34,7 +34,7 @@
 
     "p_optionsBtn": {
         "message": "Options",
-        "description": ""
+        "description": "Prefix 'p_' for popup page"
     },
     "p_helpBtn": {
         "message": "Help",
