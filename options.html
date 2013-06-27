@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>{{extName}}</title>
+    <link rel="stylesheet" type="text/css" href="css/options.css">
+    <link rel="stylesheet" type="text/css" href="lib/jsTabs/tabs.css">
+</head>
+<body>
+
+<div id=message_place>
+    <span id="error">{{o_error}}</span>
+    <span id="success">{{o_saved}}</span>
+</div>
+
+<div id="page">
+    <header>
+        <img src="img/ext_icons/48.png" title="{{extName}}" alt="{{extName}}" width="48" height="48">
+        <strong>{{extName}}</strong>
+    </header>
+
+    <section id="main_tabs" class="tabs">
+        <ul class="tabs_nav">
+            <li><a href="#main">{{o_tabs_main}}</a></li>
+            <li><a href="#help">{{o_tabs_help}}</a></li>
+        </ul>
+
+        <div class="tabs_content">
+
+            <div id="main">
+                <p><strong>{{o_try}}</strong></p>
+                <hr>
+
+                <select data-storage="o_select">
+                    <option value="select1">1</option>
+                    <option value="select2">2</option>
+                    <option value="select3">3</option>
+                </select>
+                <hr>
+
+
+                <select multiple data-storage="o_multiselect">
+                    <option value="multiselect1">1</option>
+                    <option value="multiselect2">2</option>
+                    <option value="multiselect3">3</option>
+                    <option value="multiselect4">4</option>
+                </select>
+                <hr>
+
+                <label><input name="radio" data-storage="o_radio" value="radio1" type="radio"/>radio1</label><br>
+                <label><input name="radio" data-storage="o_radio" value="radio2" type="radio"/>radio2</label><br>
+                <label><input name="radio" data-storage="o_radio" value="radio3" type="radio"/>radio3</label><br>
+                <label><input name="radio" data-storage="o_radio" value="radio4" type="radio"/>radio4</label><br>
+                <label><input name="radio" data-storage="o_radio" value="radio5" type="radio"/>radio5</label><br>
+                <hr>
+
+                <label><input type="checkbox" data-storage="o_checkbox1"/>checkbox1</label><br>
+                <hr>
+
+                <input type="range" max="10" min="1" step="1" data-storage="o_range"/>
+                <hr>
+
+                <input type="color" data-storage="o_color"/>
+                <hr>
+
+                <input type="date" data-storage="o_date"/>
+                <hr>
+
+                <input type="time" data-storage="o_time"/>
+                <hr>
+
+                <input type="month" data-storage="o_month"/>
+                <hr>
+
+                <input type="week" data-storage="o_week"/>
+                <hr>
+
+                <input type="text" data-storage="o_text"/>
+                <input type="submit" data-storage="o_text" value="{{o_saveBtn}}"/>
+                <hr>
+
+                <textarea data-storage="o_textarea" cols="30" rows="10"></textarea><br>
+                <input type="button" data-storage="o_textarea" value="{{o_saveBtn}}"/>
+
+            </div>
+
+            <div id="help">
+                <p><a href="https://github.com/onikienko/chrome-extensions-box" target="_blank">Chrome Extensions Box on GitHub</a></p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p class="copyright">by <a href="http://onikienko.pp.ua">M. Onikienko</a></p>
+    </footer>
+</div>
+<script src="js/helpers/localizer.js"></script>
+<script src="lib/jsTabs/tabs.js"></script>
+
+<script src="js/storage.js"></script>
+<script src="js/helpers/quick_options.js"></script>
+<!--<script src="lib/jquery.min.js"></script>-->
+<script src="js/options.js"></script>
+</body>
+</html>

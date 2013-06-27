@@ -1,0 +1,43 @@
+{
+    "extName": {
+        "message": "Chrome Extensions Box #DEMO",
+        "description": "Do not translate extension name"
+    },
+    "extDescr": {
+        "message": "Example of use Chrome Extensions Box",
+        "description": "Short extension's description"
+    },
+
+    "o_tabs_help": {
+        "message": "Help",
+        "description": "Tab name"
+    },
+    "o_tabs_main": {
+        "message": "Main",
+        "description": "Tab name"
+    },
+    "o_try": {
+        "message": "Try to change elements state. It will be save to 'storage'"
+    },
+    "o_saveBtn": {
+        "message": "Save",
+        "description": "Save button"
+    },
+    "o_error": {
+        "message": "Error",
+        "description": "Error message"
+    },
+    "o_saved": {
+        "message": "Saved",
+        "description": "Ok message"
+    },
+
+    "p_optionsBtn": {
+        "message": "Options",
+        "description": ""
+    },
+    "p_helpBtn": {
+        "message": "Help",
+        "description": ""
+    }
+}
