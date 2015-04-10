@@ -17,7 +17,7 @@
         "description": "Tab name"
     },
     "o_try": {
-        "message": "Try to change elements state. It will be save to 'storage'"
+        "message": "Try to change elements state. It will be saved to 'storage'. Also see Console (Ctrl+Shift+J)"
     },
     "o_saveBtn": {
         "message": "Save",
